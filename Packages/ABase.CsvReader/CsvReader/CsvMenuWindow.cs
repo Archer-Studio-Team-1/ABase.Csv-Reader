@@ -9,7 +9,7 @@ namespace CsvReader
 {
     public class CsvMenuWindow : OdinMenuEditorWindow
     {
-        [MenuItem("Tools/Csv-Reader")]
+        [MenuItem("ArcherStudio/Csv-Reader")]
         private static void OpenWindow()
         {
             var window = GetWindow<CsvMenuWindow>();

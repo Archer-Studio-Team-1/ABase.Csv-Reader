@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Globalization;
 using System.Reflection;
 using System.Text;
 using UnityEngine;
@@ -231,7 +232,7 @@ namespace CsvReader
                     }
                     else
                     {
-                        arrayValue.SetValue(Convert.ChangeType(element[i], elementType), i);
+                        arrayValue.SetValue(Convert.ChangeType(element[i], elementType, CultureInfo.InvariantCulture), i);
                     }
                 }
 
@@ -253,14 +254,14 @@ namespace CsvReader
                      (type == typeof(int) || type == typeof(long) ||
                       type == typeof(short)))
             {
-                float f = (float) Convert.ChangeType(value, typeof(float));
-                return Convert.ChangeType(f, type);
+                float f = (float) Convert.ChangeType(value, typeof(float), CultureInfo.InvariantCulture);
+                return Convert.ChangeType(f, type, CultureInfo.InvariantCulture);
             }
             
             if (type == typeof(string))
                 return value;
             
-            return Convert.ChangeType(value, type);
+            return Convert.ChangeType(value, type, CultureInfo.InvariantCulture);
         }
 
         private static List<string[]> ParseCsv(string text, char separator = ',')

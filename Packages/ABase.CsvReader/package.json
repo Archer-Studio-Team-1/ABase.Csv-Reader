@@ -1,7 +1,7 @@
 {
   "name": "com.archerstudio.csv-reader",
   "displayName": "ABase.Csv-Reader",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "type": "tool",
   "unity": "2021.3",
   "license": "MIT",
@@ -9,7 +9,7 @@
   "changelogUrl": "https://haivd.notion.site/Csv-Reader-399f96ed1be84031825eebc0d13bba64?pvs=4",
   "author": {
     "name": "ArcherStudio",
-    "url": "https://github.com/quannv-archer/ABase.Csv-Reader.git"
+    "url": "https://github.com/Archer-Studio-Team-1/archerstudio-utils.git"
   },
   "samples": [
     {
