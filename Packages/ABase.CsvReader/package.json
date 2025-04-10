@@ -1,15 +1,15 @@
 {
-  "name": "com.zbase.csv-reader",
-  "displayName": "ZBase.Csv-Reader",
-  "version": "2.2.0",
+  "name": "com.archerstudio.csv-reader",
+  "displayName": "ABase.Csv-Reader",
+  "version": "3.0.0",
   "type": "tool",
   "unity": "2021.3",
   "license": "MIT",
   "documentationUrl": "https://haivd.notion.site/Csv-Reader-399f96ed1be84031825eebc0d13bba64?pvs=4",
   "changelogUrl": "https://haivd.notion.site/Csv-Reader-399f96ed1be84031825eebc0d13bba64?pvs=4",
   "author": {
-    "name": "zitga",
-    "url": "https://github.com/Zitga-Tech/ZBase.Csv-Reader.git"
+    "name": "ArcherStudio",
+    "url": "https://github.com/quannv-archer/ABase.Csv-Reader.git"
   },
   "samples": [
     {
@@ -18,5 +18,5 @@
       "path": "Samples~/CsvReader"
     }
   ],
-  "description": "The fastest way to convert csv to Scriptable Object.\nDependencies: Odin"
+  "description": "The fastest way to convert csv to Scriptable Object.\nDependencies: Odin\n\nThanks Zitga-Tech"
 }
